@@ -1,5 +1,6 @@
+console.log("linked");
 
-    window.addEventListener("load", function() {
+window.addEventListener("load", function() {
       var circle = document.querySelector("circle");
       circle.addEventListener("mouseover", function() {
         this.setAttribute("fill", "orange");
